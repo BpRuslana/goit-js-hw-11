@@ -1,0 +1,32 @@
+<div class="album py-5 ">
+    <div class="container">
+        <div class=" mb-3">
+            <form class="search-form  g-3" id="search-form">
+                <div class="input-group mb-3">
+                    <input class="form-control" type="text" name="searchQuery" autocomplete="off"
+                        placeholder="Search images.." />
+
+                    <button class="btn btn-light clear-btn border" type="button">
+                        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20"
+                            height="20" viewBox="0 0 24 24">
+                            <path
+                                d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z">
+                            </path>
+                        </svg>
+                    </button>
+                    <button type="submit" class="btn btn-primary">Search
+                </div>
+            </form>
+        </div>
+        <div class="gallery row gap-2 ">
+
+        </div>
+        <div class="d-grid gap-2 col-4 mx-auto mt-3 text-center ">
+            <p class="load-more-wrapper"></p>
+            <button type="button" class="load-more btn btn-primary mb-2 ">Load more</button>
+        </div>
+    </div>
+</div>
+<div class="backdrop">
+    <div class="loader"></div>
+</div>
